@@ -2,9 +2,7 @@ from flask import Flask,render_template,request
 import pandas as pd
 from bokeh.embed import components
 from bokeh.plotting import figure
-#from bkcharts import Histogram
 import numpy as np
-#from bokeh import Histogram
 
 app = Flask(__name__)
 app.vars = {}
